@@ -1,0 +1,10 @@
+// @import "resolutions.scss";
+@import "fonts.scss";
+@import "colors.scss";
+
+*{
+  font-family:$body-font;
+}
+h1{
+  background-color: $yellow-color;
+}
