@@ -99,24 +99,17 @@
   text-align: center; }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .izquierda {
-    width: 100%;
-    float: none; }
-
-  .central {
-    width: 100%;
-    float: none; }
-
-  .aside {
+  .izquierda, .central, .aside {
     width: 100%;
     float: none; } }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .izquierda {
-    width: 25%; }
+    width: 25%;
+    float: left; }
 
   .central {
     width: 75%;
-    clear: right; }
+    float: left; }
 
   .aside {
     width: 100%;
